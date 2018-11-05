@@ -1,6 +1,10 @@
-﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+﻿
+
+/*#region GLOBAL */
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -10,15 +14,39 @@
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
-   will truncate terms that are too long to fit in the left column 
-*/
+       will truncate terms that are too long to fit in the left column 
+    */
 .dl-horizontal dt {
     white-space: normal;
 }
 
 /* Set width on the form input elements since they're 100% wide by default */
-input,
-select,
-textarea {
+input, select, textarea {
     max-width: 280px;
 }
+
+
+/*#endregion */
+
+/* -------- Menu ----------  */
+.main-menu ul {
+    list-style-type: none;
+    float: right;
+
+}
+
+    .main-menu ul li {
+        display: inline-block;
+    }
+
+
+
+/* -------- Footer ----------  */
+
+
+/* -------- Page : Home ----------  */
+
+
+
+/* -------- Re-usable Elements ----------  */
+

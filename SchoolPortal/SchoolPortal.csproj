@@ -239,8 +239,15 @@
       <DependentUpon>201811040858520_InitializeTables.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Course.cs" />
+    <Compile Include="Models\Department.cs" />
+    <Compile Include="Models\Enrollment.cs" />
+    <Compile Include="Models\Faculty.cs" />
+    <Compile Include="Models\FacultyInfo.cs" />
+    <Compile Include="Models\FacultyRoles.cs" />
     <Compile Include="Models\StudentAddress.cs" />
     <Compile Include="Models\StudentInfo.cs" />
+    <Compile Include="Models\Subject.cs" />
     <Compile Include="ViewModel\AccountViewModels.cs" />
     <Compile Include="Models\Context\IdentityModels.cs" />
     <Compile Include="ViewModel\ManageViewModels.cs" />
