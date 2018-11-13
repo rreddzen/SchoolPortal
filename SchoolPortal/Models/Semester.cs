@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace SchoolPortal.Models
 {
-    public class Subject
+    public class Semester
     {
         public int Id { get; set; }
-        public string SubjectCode { get; set; }
-        public int Units { get; set; }
-
+        public string SemesterName { get; set; }
     }
 }

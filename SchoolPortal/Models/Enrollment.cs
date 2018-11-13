@@ -7,5 +7,6 @@ namespace SchoolPortal.Models
 {
     public class Enrollment
     {
+
     }
 }

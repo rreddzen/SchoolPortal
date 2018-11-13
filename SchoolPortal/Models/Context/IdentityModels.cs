@@ -26,8 +26,16 @@ namespace SchoolPortal.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public DbSet<Student> Students { get; set; }
-        public DbSet<StudentInfo> StudentInformation { get; set; }
-        public DbSet<StudentAddress> StudentAddress { get; set; }
+        public DbSet<StudentAddress> StudentAddresses { get; set; }
+        public DbSet<Course> Courses { get; set; }
+        public DbSet<CourseCurriculum> CourseCurriculum { get; set; }
+        public DbSet<Faculty> Faculties { get; set; }
+        public DbSet<FacultyRole> FacultyRoles { get; set; }
+        public DbSet<FacultyAddress> FacultyAddresses { get; set; }
+        public DbSet<Semester> Semesters { get; set; }
+        public DbSet<Subject> Subjects { get; set; }
+        public DbSet<YearLevel> YearLevels { get; set; }
+        public DbSet<Department> Departments { get; set; }
 
 
         public ApplicationDbContext()

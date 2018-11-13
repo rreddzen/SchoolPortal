@@ -137,3 +137,4 @@ C:\Users\Jun\source\repos\SchoolPortal\SchoolPortal\bin\AutoMapper.xml
 C:\Users\Jun\source\repos\SchoolPortal\SchoolPortal\bin\System.ValueTuple.xml
 C:\Users\Jun\source\repos\SchoolPortal\SchoolPortal\obj\Debug\SchoolPortal.Migrations.InitializeTables.resources
 C:\Users\Jun\source\repos\SchoolPortal\SchoolPortal\obj\Debug\SchoolPortal.csproj.GenerateResource.cache
+C:\Users\Jun\source\repos\SchoolPortal\SchoolPortal\obj\Debug\SchoolPortal.Migrations.AddDepartmentTable.resources

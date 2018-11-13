@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace SchoolPortal.Models
 {
-    public class Subject
+    public class FacultyRole
     {
-        public int Id { get; set; }
-        public string SubjectCode { get; set; }
-        public int Units { get; set; }
 
+        public int Id { get; set; }
+        public string Role { get; set; }
     }
 }

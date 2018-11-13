@@ -16,6 +16,11 @@ namespace SchoolPortal.Models
         public string StudentNumber { get; set; }
 
         /// <summary>
+        /// Directory to an image in the file system.
+        /// </summary>
+        public string Photo { get; set; }
+
+        /// <summary>
         /// First Name
         /// </summary>
         public string FirstName { get; set; }
@@ -30,15 +35,18 @@ namespace SchoolPortal.Models
         /// </summary>
         public string LastName { get; set; }
 
-        /// <summary>
-        /// Directory to an image in the file system.
-        /// </summary>
-        public string Photo { get; set; }
+        public int DateOfBirth { get; set; }
+
+        public string Sex { get; set; }
 
         /// <summary>
         /// The current year level of the student.
         /// </summary>
         public byte YearLevel { get; set; }
+
+        public string EmailAddress { get; set; }
+
+        public string ContactNumber { get; set; }
 
         /// <summary>
         /// Date Creation.
@@ -54,8 +62,6 @@ namespace SchoolPortal.Models
         /// Property to check if a student is dropped out of school.
         /// </summary>
         public bool IsDeleted { get; set; }
-
-        public StudentInfo PersonalInfo { get; set; }
 
         public StudentAddress Address { get; set; }
 

@@ -7,13 +7,13 @@ namespace SchoolPortal.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class InitializeTables : IMigrationMetadata
+    public sealed partial class AddDepartmentTable : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(InitializeTables));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(AddDepartmentTable));
         
         string IMigrationMetadata.Id
         {
-            get { return "201811040858520_InitializeTables"; }
+            get { return "201811061505130_AddDepartmentTable"; }
         }
         
         string IMigrationMetadata.Source
