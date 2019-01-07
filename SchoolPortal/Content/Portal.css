@@ -1,0 +1,95 @@
+﻿/*#region Global */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+       will truncate terms that are too long to fit in the left column 
+    */
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input, select, textarea {
+    max-width: 280px;
+}
+
+/*#endregion */
+
+
+/*#region PORTAL LAYOUT */
+.menu-container {
+    padding: 15px 10px;
+    width: 350px;
+    min-height: 100%;
+    float: left;
+    background: #1d1d1d;
+    border-right: 2px solid #2e2e2e;
+}
+
+.logo-container {
+    text-align: center;
+}
+
+.logo-text {
+    font: 400 35px/1.2em 'Satisfy', cursive;
+}
+
+.school {
+    color: #ef543b;
+}
+
+.portal {
+    color: #ffffff;
+}
+
+
+.side-nav {
+    font-family: Roboto, sans-serif, Arial;
+    margin-top: 45px;
+}
+
+    .side-nav ul {
+        padding: 0px 0px;
+        list-style-type: none;
+        float: left;
+        width: 100%;
+    }
+
+        .side-nav ul li {
+            width: 100%;
+        }
+
+            .side-nav ul li a {
+                display: block;
+                padding: 15px 15px; font-size: 15px;
+                color: #eaeaea;
+                font-weight: bold;
+            }
+
+                .side-nav ul li a:hover, .side-nav ul li .active {
+                    color: #ef543b;
+                    text-decoration: none;
+                    border-bottom: solid;
+                }
+
+
+/*#endregion */
+
+

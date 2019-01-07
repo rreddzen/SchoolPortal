@@ -35,8 +35,14 @@ namespace SchoolPortal.Models
         /// </summary>
         public string LastName { get; set; }
 
+        /// <summary>
+        /// Date of birth.
+        /// </summary>
         public int DateOfBirth { get; set; }
 
+        /// <summary>
+        /// Sex of the student.
+        /// </summary>
         public string Sex { get; set; }
 
         /// <summary>
@@ -44,8 +50,14 @@ namespace SchoolPortal.Models
         /// </summary>
         public byte YearLevel { get; set; }
 
+        /// <summary>
+        /// Email Address
+        /// </summary>
         public string EmailAddress { get; set; }
 
+        /// <summary>
+        /// Contact Number
+        /// </summary>
         public string ContactNumber { get; set; }
 
         /// <summary>
@@ -63,7 +75,9 @@ namespace SchoolPortal.Models
         /// </summary>
         public bool IsDeleted { get; set; }
 
+        /// <summary>
+        /// Navigation Property for the student's address.
+        /// </summary>
         public StudentAddress Address { get; set; }
-
     }
 }

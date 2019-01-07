@@ -1,0 +1,11 @@
+﻿
+
+
+
+1. Drop down hover for Logged In User / Change password / Settings
+2. Move Home Pages to Area
+3. Dynamic Image for Page Navigation
+
+Database
+- Student Enrollment
+- Grade and Subject

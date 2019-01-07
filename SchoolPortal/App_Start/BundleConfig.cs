@@ -23,8 +23,11 @@ namespace SchoolPortal
                       "~/Scripts/bootstrap.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/bootstrap.css"));
+
+            // not included .. put in layout page
+            //"~/Content/Site.css",
+            //"~/Content/Portal.css")
         }
     }
 }

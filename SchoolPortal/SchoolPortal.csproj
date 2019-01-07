@@ -228,9 +228,31 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Areas\HomePages\Controllers\AboutController.cs" />
+    <Compile Include="Areas\HomePages\HomePagesAreaRegistration.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CoursesController.cs" />
+    <Compile Include="Controllers\CurriculumController.cs" />
+    <Compile Include="Controllers\FacultyController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\PortalHomeController.cs" />
+    <Compile Include="Controllers\RoleController.cs" />
+    <Compile Include="Controllers\StudentController.cs" />
+    <Compile Include="Controllers\SubjectsController.cs" />
+    <Compile Include="Migrations\201901071700128_ReInitializeDB.cs" />
+    <Compile Include="Migrations\201901071700128_ReInitializeDB.Designer.cs">
+      <DependentUpon>201901071700128_ReInitializeDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Content-Management\PagePermissions.cs" />
+    <Compile Include="Models\Context\ApplicationUserManager.cs" />
+    <Compile Include="Models\Context\ApplicationSignInManager.cs" />
+    <Compile Include="Models\Context\ApplicationRole.cs" />
+    <Compile Include="Models\Context\ApplicationRoleManager.cs" />
+    <Compile Include="Models\Context\ApplicationUser.cs" />
+    <Compile Include="Models\Content-Management\Pages.cs" />
+    <Compile Include="ViewModel\StudentViewModel\CreateStudentViewModel.cs" />
+    <Compile Include="ViewModel\StudentViewModel\StudentAddressViewModel.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -266,16 +288,20 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\images\main_banner_1.jpg" />
+    <Content Include="Content\Portal.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="IDEAS.txt" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="AppSettings.config" />
+    <Content Include="Areas\HomePages\Views\web.config" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -286,6 +312,7 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\site\main.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -323,11 +350,22 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Shared\_PortalHomeLayout.cshtml" />
+    <Content Include="Views\Shared\_AccountLayout.cshtml" />
+    <Content Include="Views\PortalHome\Index.cshtml" />
+    <Content Include="Views\Courses\Index.cshtml" />
+    <Content Include="Views\Subjects\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\HomePages\Models\" />
+    <Folder Include="Areas\HomePages\Views\About\" />
+    <Folder Include="Areas\HomePages\Views\Gallery\" />
+    <Folder Include="Areas\HomePages\Views\Shared\" />
     <Folder Include="Controllers\Api\" />
+    <Folder Include="Dto\Students\" />
     <Folder Include="Services\" />
+    <Folder Include="Views\Role\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -348,6 +386,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201811061505130_AddDepartmentTable.resx">
       <DependentUpon>201811061505130_AddDepartmentTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901071700128_ReInitializeDB.resx">
+      <DependentUpon>201901071700128_ReInitializeDB.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

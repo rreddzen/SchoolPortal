@@ -125,7 +125,6 @@ C:\Users\Jun\source\repos\SchoolPortal\SchoolPortal\bin\Microsoft.AI.DependencyC
 C:\Users\Jun\source\repos\SchoolPortal\SchoolPortal\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\Jun\source\repos\SchoolPortal\SchoolPortal\bin\Microsoft.AI.Web.xml
 C:\Users\Jun\source\repos\SchoolPortal\SchoolPortal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Jun\source\repos\SchoolPortal\SchoolPortal\obj\Debug\SchoolPortal.csprojAssemblyReference.cache
 C:\Users\Jun\source\repos\SchoolPortal\SchoolPortal\obj\Debug\SchoolPortal.csproj.CoreCompileInputs.cache
 C:\Users\Jun\source\repos\SchoolPortal\SchoolPortal\obj\Debug\SchoolPortal.csproj.CopyComplete
 C:\Users\Jun\source\repos\SchoolPortal\SchoolPortal\obj\Debug\SchoolPortal.dll
@@ -138,3 +137,5 @@ C:\Users\Jun\source\repos\SchoolPortal\SchoolPortal\bin\System.ValueTuple.xml
 C:\Users\Jun\source\repos\SchoolPortal\SchoolPortal\obj\Debug\SchoolPortal.Migrations.InitializeTables.resources
 C:\Users\Jun\source\repos\SchoolPortal\SchoolPortal\obj\Debug\SchoolPortal.csproj.GenerateResource.cache
 C:\Users\Jun\source\repos\SchoolPortal\SchoolPortal\obj\Debug\SchoolPortal.Migrations.AddDepartmentTable.resources
+C:\Users\Jun\source\repos\SchoolPortal\SchoolPortal\obj\Debug\SchoolPortal.csprojAssemblyReference.cache
+C:\Users\Jun\source\repos\SchoolPortal\SchoolPortal\obj\Debug\SchoolPortal.Migrations.ReInitializeDB.resources
