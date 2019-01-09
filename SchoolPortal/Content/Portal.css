@@ -30,17 +30,31 @@ input, select, textarea {
     max-width: 280px;
 }
 
+.row {
+    height : 100%   ;
+}
+
 /*#endregion */
 
 
 /*#region PORTAL LAYOUT */
-.menu-container {
+.admin-page {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 100vh;
+}
+
+.admin-sidebar {
+    min-width: 20%;
     padding: 15px 10px;
-    width: 350px;
     min-height: 100%;
-    float: left;
     background: #1d1d1d;
     border-right: 2px solid #2e2e2e;
+}
+
+.admin-body {
+    width: 80%;
 }
 
 .logo-container {
@@ -68,8 +82,6 @@ input, select, textarea {
     .side-nav ul {
         padding: 0px 0px;
         list-style-type: none;
-        float: left;
-        width: 100%;
     }
 
         .side-nav ul li {
@@ -88,6 +100,10 @@ input, select, textarea {
                     text-decoration: none;
                     border-bottom: solid;
                 }
+
+/*.top-panel-container {
+    width: 100%;
+}*/
 
 
 /*#endregion */
