@@ -5,6 +5,7 @@
 1. Drop down hover for Logged In User / Change password / Settings
 2. Move Home Pages to Area
 3. Dynamic Image for Page Navigation
+4. DASHBOARD for how many students enrolled in each class, number of enrollees per month/week
 
 Database
 - Student Enrollment

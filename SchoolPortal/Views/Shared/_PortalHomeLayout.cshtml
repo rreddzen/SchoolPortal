@@ -9,28 +9,35 @@
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
-        <div class="admin-page">
-            <div class="admin-sidebar">
-                <div class="logo-container">
-                    <span class="logo-text school">School</span>
-                    <span class="logo-text portal">Portal</span>
+    <div class="admin-page">
+        <div class="admin-sidebar">
+            <div class="logo-container">
+                <span class="logo-text school">School</span>
+                <span class="logo-text portal">Portal</span>
+            </div>
+            <nav class="side-nav">
+                <ul id="navigationBar">
+                    <li> @Html.ActionLink("Courses", "Index", "Courses")</li>
+                    <li>@Html.ActionLink("Subjects", "Index", "Subjects")</li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <div class="admin-body">
+            <div class="admin-header">
+                <div class="login-partial">
+                    @Html.Partial("_LoginPartial")
                 </div>
-                <nav class="side-nav">
-                    <ul id="navigationBar">
-                        <li>@Html.ActionLink("Courses", "Index", "Courses")</li>
-                        <li>@Html.ActionLink("Subjects", "Index", "Subjects")</li>
-                    </ul>
-                </nav>
+                @ViewContext.RouteData.Values["Controller"].ToString()
             </div>
 
-
-            <div class="admin-body">
-                @Html.Partial("_LoginPartial")
-                <div class="container-fluid body-content">
-                    @RenderBody()
-                </div>
+            <div class="container-fluid body-content">
+                @RenderBody()
             </div>
         </div>
+
+    </div>
 
 
     @Scripts.Render("~/bundles/jquery")

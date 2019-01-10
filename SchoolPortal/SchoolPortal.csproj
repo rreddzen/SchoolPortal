@@ -244,6 +244,10 @@
     <Compile Include="Migrations\201901071700128_ReInitializeDB.Designer.cs">
       <DependentUpon>201901071700128_ReInitializeDB.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201901100335375_AddCourses.cs" />
+    <Compile Include="Migrations\201901100335375_AddCourses.Designer.cs">
+      <DependentUpon>201901100335375_AddCourses.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\Content-Management\PagePermissions.cs" />
     <Compile Include="Models\Context\ApplicationUserManager.cs" />
     <Compile Include="Models\Context\ApplicationSignInManager.cs" />
@@ -251,6 +255,9 @@
     <Compile Include="Models\Context\ApplicationRoleManager.cs" />
     <Compile Include="Models\Context\ApplicationUser.cs" />
     <Compile Include="Models\Content-Management\Pages.cs" />
+    <Compile Include="Services\CoursesRepository.cs" />
+    <Compile Include="Services\Reusables\GenericRepository.cs" />
+    <Compile Include="Services\Reusables\IBaseRepository.cs" />
     <Compile Include="ViewModel\StudentViewModel\CreateStudentViewModel.cs" />
     <Compile Include="ViewModel\StudentViewModel\StudentAddressViewModel.cs" />
     <Compile Include="Global.asax.cs">
@@ -364,7 +371,6 @@
     <Folder Include="Areas\HomePages\Views\Shared\" />
     <Folder Include="Controllers\Api\" />
     <Folder Include="Dto\Students\" />
-    <Folder Include="Services\" />
     <Folder Include="Views\Role\" />
   </ItemGroup>
   <ItemGroup>
@@ -389,6 +395,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201901071700128_ReInitializeDB.resx">
       <DependentUpon>201901071700128_ReInitializeDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901100335375_AddCourses.resx">
+      <DependentUpon>201901100335375_AddCourses.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

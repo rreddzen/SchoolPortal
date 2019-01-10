@@ -1,8 +1,11 @@
 ﻿var MY_SITE = {
     // you have one namespace-object where you hold all your stuff
     courses_page: {
-        _init: function() {
+        _init: function () {
+            $().ready(function () {
+                console.log('tets');
 
+            });
         }
     },
 
@@ -23,18 +26,19 @@
     _start: function () {
         // here we simply call one _init of the page module that was specified 
         this[PAGE_TYPE]._init();
+
+
+
         // and more tricky stuff - we can search the page for elements
 
         // that contain special data-attribute, collect them
-        var widgets = $('[data-our-widget]').each().getAttributeValue('data-or-widget');
-
+        //var widgets = $('[data-our-widget]').each().getAttributeValue('data-or-widget');
 
         // and then _init each of those widgets just like we did with main page 
-        widgets.forEach(function (v) {
-            this[v]._init();
-        }
+        //widgets.forEach(function (v) {
+        //    this[v]._init();
     }
 };
 
 
-document.on('ready', MY_SITE._start); // here we assume some random js framework
+MY_SITE._start();

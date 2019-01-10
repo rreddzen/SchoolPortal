@@ -1,11 +1,29 @@
-﻿
-@{
+﻿@{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_PortalHomeLayout.cshtml";
 }
 
-<div>
-    <span> Hello there! </span>
+
+<div class="page-actions">
+    <h3 style="margin-top: 10px;">Manage Courses</h3>
+    @Html.ActionLink("Add New Course", "Courses", null, new { @class = "btn btn-primary" })
 </div>
 
+
+<div class="page-table">
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th scope="col">Course ID</th>
+                <th scope="col">Course Name</th>
+                <th scope="col">Course Description</th>
+            </tr>
+        </thead>
+    </table>
+</div>
+
+
+<script>
+    var PAGE_TYPE = 'courses_page';
+</script>
 

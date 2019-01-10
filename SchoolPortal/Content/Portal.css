@@ -1,6 +1,9 @@
 ﻿/*#region Global */
 
 @import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+
 
 html {
     height: 100%;
@@ -14,8 +17,7 @@ body {
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 0px 20px 0px 20px;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -31,7 +33,7 @@ input, select, textarea {
 }
 
 .row {
-    height : 100%   ;
+    height: 100%;
 }
 
 /*#endregion */
@@ -43,15 +45,29 @@ input, select, textarea {
     display: -ms-flexbox;
     display: flex;
     min-height: 100vh;
+
 }
 
 .admin-sidebar {
     min-width: 20%;
-    padding: 15px 10px;
+    padding: 15px 0px;
     min-height: 100%;
     background: #1d1d1d;
     border-right: 2px solid #2e2e2e;
 }
+
+.admin-header {
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+}
+
+.login-partial {
+    float: right;
+}
+
+    .login-partial a {
+       color: #8a8a8a
+    }
 
 .admin-body {
     width: 80%;
@@ -75,7 +91,7 @@ input, select, textarea {
 
 
 .side-nav {
-    font-family: Roboto, sans-serif, Arial;
+    font-family: 'Open Sans', 'Roboto', sans-serif, Arial;
     margin-top: 45px;
 }
 
@@ -90,22 +106,34 @@ input, select, textarea {
 
             .side-nav ul li a {
                 display: block;
-                padding: 15px 15px; font-size: 15px;
+                padding: 15px 15px;
+                font-size: 15px;
                 color: #eaeaea;
-                font-weight: bold;
+                font-weight: 600;
             }
 
                 .side-nav ul li a:hover, .side-nav ul li .active {
                     color: #ef543b;
+                    background-color: #383838;
                     text-decoration: none;
-                    border-bottom: solid;
                 }
-
-/*.top-panel-container {
-    width: 100%;
-}*/
 
 
 /*#endregion */
 
+
+
+/*#region Courses */
+
+/*Temporary*/
+.page-actions {
+    padding: 20px 0px 10px 0px;
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+}
+
+
+
+/*#endregion */
 
