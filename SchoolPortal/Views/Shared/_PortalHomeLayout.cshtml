@@ -16,7 +16,7 @@
                 <span class="logo-text portal">Portal</span>
             </div>
             <nav class="side-nav">
-                <ul id="navigationBar">
+                <ul id="nav-pages">
                     <li> @Html.ActionLink("Courses", "Index", "Courses")</li>
                     <li>@Html.ActionLink("Subjects", "Index", "Subjects")</li>
                 </ul>
@@ -36,12 +36,13 @@
                 @RenderBody()
             </div>
         </div>
-
     </div>
 
-
     @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
+    
+
 </body>
 </html>

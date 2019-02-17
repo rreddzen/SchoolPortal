@@ -1,9 +1,7 @@
 ﻿/*#region Global */
-
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Satisfy');
-
 
 html {
     height: 100%;
@@ -17,7 +15,7 @@ body {
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
-    padding: 0px 20px 0px 20px;
+    padding: 0 20px 0 20px;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -28,9 +26,9 @@ body {
 }
 
 /* Set width on the form input elements since they're 100% wide by default */
-input, select, textarea {
+/*input, select, textarea {
     max-width: 280px;
-}
+}*/
 
 .row {
     height: 100%;
@@ -50,7 +48,7 @@ input, select, textarea {
 
 .admin-sidebar {
     min-width: 20%;
-    padding: 15px 0px;
+    padding: 15px 0;
     min-height: 100%;
     background: #1d1d1d;
     border-right: 2px solid #2e2e2e;
@@ -96,7 +94,7 @@ input, select, textarea {
 }
 
     .side-nav ul {
-        padding: 0px 0px;
+        padding: 0;
         list-style-type: none;
     }
 
@@ -127,7 +125,7 @@ input, select, textarea {
 
 /*Temporary*/
 .page-actions {
-    padding: 20px 0px 10px 0px;
+    padding: 20px 0 10px 0;
     align-items: center;
     display: flex;
     justify-content:space-between;

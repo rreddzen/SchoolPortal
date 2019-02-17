@@ -130,7 +130,6 @@ C:\Users\Jun\Source\Repos\SchoolPortal\SchoolPortal\bin\Microsoft.AI.DependencyC
 C:\Users\Jun\Source\Repos\SchoolPortal\SchoolPortal\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\Jun\Source\Repos\SchoolPortal\SchoolPortal\bin\Microsoft.AI.Web.xml
 C:\Users\Jun\Source\Repos\SchoolPortal\SchoolPortal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Jun\Source\Repos\SchoolPortal\SchoolPortal\obj\Debug\SchoolPortal.csprojAssemblyReference.cache
 C:\Users\Jun\Source\Repos\SchoolPortal\SchoolPortal\obj\Debug\SchoolPortal.Migrations.InitializeTables.resources
 C:\Users\Jun\Source\Repos\SchoolPortal\SchoolPortal\obj\Debug\SchoolPortal.Migrations.AddDepartmentTable.resources
 C:\Users\Jun\Source\Repos\SchoolPortal\SchoolPortal\obj\Debug\SchoolPortal.Migrations.ReInitializeDB.resources
@@ -140,3 +139,9 @@ C:\Users\Jun\Source\Repos\SchoolPortal\SchoolPortal\obj\Debug\SchoolPortal.cspro
 C:\Users\Jun\Source\Repos\SchoolPortal\SchoolPortal\obj\Debug\SchoolPortal.dll
 C:\Users\Jun\Source\Repos\SchoolPortal\SchoolPortal\obj\Debug\SchoolPortal.pdb
 C:\Users\Jun\Source\Repos\SchoolPortal\SchoolPortal\obj\Debug\SchoolPortal.Migrations.AddCourses.resources
+C:\Users\Jun\Source\Repos\SchoolPortal\SchoolPortal\bin\System.Web.Http.Owin.dll
+C:\Users\Jun\Source\Repos\SchoolPortal\SchoolPortal\bin\System.Web.Http.Owin.xml
+C:\Users\Jun\Source\Repos\SchoolPortal\SchoolPortal\obj\Debug\SchoolPortal.csprojAssemblyReference.cache
+C:\Users\Jun\source\repos\SchoolPortal\SchoolPortal\bin\Microsoft.Owin.Cors.dll
+C:\Users\Jun\source\repos\SchoolPortal\SchoolPortal\bin\System.Web.Cors.dll
+C:\Users\Jun\source\repos\SchoolPortal\SchoolPortal\bin\Microsoft.Owin.Cors.xml

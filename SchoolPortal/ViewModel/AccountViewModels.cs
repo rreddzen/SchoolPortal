@@ -64,6 +64,12 @@ namespace SchoolPortal.Models
 
     public class RegisterViewModel
     {
+        [Required(ErrorMessage ="User name is required."), 
+         StringLength(15, ErrorMessage ="Username between be 5 - 15 characters long.", MinimumLength = 5)]
+        [Display(Name = "User name")]
+        public string Username { get; set; }
+
+
         [Required]
         [EmailAddress]
         [Display(Name = "Email")]

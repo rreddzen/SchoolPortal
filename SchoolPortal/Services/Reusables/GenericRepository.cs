@@ -27,7 +27,7 @@ namespace SchoolPortal.Services.Reusables
         }
 
         /// <summary>
-        /// Get all the related entities based on the give
+        /// Get all the related entities based on the given Type.
         /// </summary>
         /// <returns>Returns an IQueryable of Type (T)."/></returns>
         public virtual IQueryable<T> GetAll()
@@ -90,6 +90,11 @@ namespace SchoolPortal.Services.Reusables
         {
             var entity = context.Set<T>().Find(id);
             context.Set<T>().Remove(entity);
+        }
+
+        public virtual void SaveChanges()
+        {
+            context.SaveChanges();
         }
     }
 }
